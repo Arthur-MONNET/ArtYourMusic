@@ -1,0 +1,69 @@
+.article{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.image{
+    width: 1000px;
+    height:1000px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+.detail_album{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    width: 100%;
+    top:1000px;
+    background-color: #262626;
+    box-shadow: 0 0 10px #000000;
+    
+}
+.nom_album{
+    width: 100%;
+    margin:0px;
+    text-align: center;
+    color: #00e92c;
+    font-family: 'Secular One', sans-serif;
+    font-size: 50px;
+    margin-block-start: 10px;
+}
+.artiste_album{
+    width: 100%;
+    margin-bottom:200px;
+    text-align: center;
+    color: #00e92c;
+    font-family: 'Secular One', sans-serif;
+    font-size: 25px;
+}
+.lien_nom{
+    color: #00e92c;
+    text-decoration: none;
+}
+.nom{
+    margin-left: 20px;
+    width: 100%;
+    color: #00e92c;
+    font-family: 'Secular One', sans-serif;
+    font-size: 20px;
+}
+.zone_titre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.image_titre{
+    margin-top: 17px;
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+    box-shadow:0 0 2px #00e92c,0 0 5px #00e92c,0px 0px 10px #00e92c;
+    border-radius: 10%;
+}
+.musique{
+    width: 500px;
+}

@@ -1,0 +1,92 @@
+.zone_text1{
+    top: 150px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.zone_text2{
+    top: 150px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+    font-family: 'Secular One', sans-serif;
+    font-size: 100px;
+    color: #00e92c;
+}
+.pseudo{
+    width: 400px;
+    font-size: 20px;
+}
+.email{
+    width: 400px;
+    font-size: 20px;
+}
+.password{
+    width: 400px;
+    font-size: 20px;
+}
+.trait1{
+    position: relative;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 5px;
+    background-color: #00e92c;
+}
+.trait2{
+    position: relative;
+    width: 300px;
+    height: 5px;
+    background-color: #00e92c;
+    margin: 50px;
+}
+.text{
+    font-family: 'Secular One', sans-serif;
+    color: white;
+    margin-bottom: 5px;
+}
+.checkbox{
+    margin-top: 20px;
+}
+.pub{
+    display: flex;
+    flex-direction: row;
+}
+.text_pub{
+    font-family: 'Secular One', sans-serif;
+    color: white;
+}
+.bouton{
+    margin:10px;
+}
+@media only screen and (max-width: 600px) {
+  h1{
+    font-size: 60px;
+  }
+  
+}
+@media only screen and (max-width: 720px) {
+  .pub{
+    width: 415px;
+  }
+  
+}
+@media only screen and (max-height: 900px) {
+  .zone_text1{
+    top: 0px;
+  }
+  
+}
+@media only screen and (max-height: 750px) {
+  .zone_text2{
+    top: 0px;
+  }
+  
+}

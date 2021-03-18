@@ -1,0 +1,128 @@
+*{
+	box-sizing: border-box;
+}
+
+.baniere {
+  margin: 5px;
+   background: white;
+   height: 50px;
+   width: 500px;
+   position: relative;
+   border-top-right-radius: 25px;
+   border-bottom-right-radius: 25px;
+   z-index: 0;
+   left:-440px;
+   top:30px;
+   transition:transform 500ms;
+}
+.trait{
+   background: black;
+   right: 20px;
+   height: 8px;
+   width: 40px;
+   position: absolute;
+   border-radius: 4px;
+   z-index: 10;
+   top:22px;
+}
+.bout_baniere{
+	position: absolute;
+	top: 2px;
+	left:500px;
+  height: 56px;
+}
+.nom_baniere{
+        text-decoration: none ;
+        color: black;
+	font-family:'Secular One', sans-serif;
+	height: 100%;
+	font-size:30px;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+.article{
+	display: none;
+  overflow: hidden;
+}
+
+.article  div{
+  height: 100%;
+}
+
+.image{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    margin-top: 40px;
+    position: relative;
+    border-radius: 10%;
+}
+.zone_text{
+    top: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+.h1{
+    font-family: 'Secular One', sans-serif;
+    font-size: 60px;
+    color: #00e92c;
+    filter:opacity(0.5);
+}
+.h1:hover{
+    filter:opacity(1);
+}
+h2{
+    font-family: 'Secular One', sans-serif;
+    font-size: 30px;
+    color: #00e92c;
+    filter:opacity(0.5);
+}
+h2:hover{
+    filter:opacity(1);
+}
+.baniere:hover{
+    transform: translateX(430px);
+}
+
+
+
+section:target .article {
+	display: flex;
+  position: relative;
+  flex-wrap:wrap;
+  flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+  animation-name : anim_article; 
+	animation-duration : 1s;
+	animation-direction : normal;
+	animation-iteration-count : 1;
+        
+}
+section:target .baniere {
+    transform: translateX(430px)
+}
+@keyframes anim_article {
+	0% {
+		width:0%;
+                height:0px;
+	}
+	20% {
+		width:100%;
+    height:0px;
+	}
+  100%{
+    width:100%;
+    height:365px;
+  }
+}

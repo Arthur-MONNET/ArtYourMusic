@@ -1,0 +1,92 @@
+.article{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.image{
+    width: 1000px;
+    height:1000px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+.detail_titre{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top:1000px;
+    background-color: #262626;
+    box-shadow: 0 0 10px #000000;
+}
+.musique{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left:10%;
+}
+.nom_titre{
+    width: 100%;
+    margin:0px;
+    text-align: center;
+    color: #00e92c;
+    font-family: 'Secular One', sans-serif;
+    font-size: 50px;
+    margin-block-start: 10px;
+}
+.text_titre_ft{
+    width: 100%;
+    margin:0px;
+    position: relative;
+    top: 70px;
+    text-align: center;
+    color: #00e92c;
+    font-family: 'Secular One', sans-serif;
+    font-size: 25px;
+}
+.text_titre{
+    width: 100%;
+    margin:0px;
+    position: relative;
+    top: 40px;
+    text-align: center;
+    color: #00e92c;
+    font-family: 'Secular One', sans-serif;
+    font-size: 25px;
+    
+}
+.button_ft{
+    top: 60px;
+    position: relative;
+    left: calc(50%-150px);
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    font-family: 'Secular One', sans-serif;
+    font-size: 25px;
+    filter: opacity(0.5);
+}
+.button{
+    top: 70px;
+    position: relative;
+    left: calc(50%-150px);
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    font-family: 'Secular One', sans-serif;
+    font-size: 25px;
+    filter: opacity(0.5);
+}
+button:hover{
+    filter: opacity(1);
+}
+.lien_nom{
+    color: #00e92c;
+    text-decoration: none;
+}
